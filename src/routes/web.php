@@ -14,6 +14,6 @@ use App\Http\Controllers\AllController;
 |
 */
 
-// Route::get('/', [AllController::class, 'register']);
-// Route::post('/register/login', [AllController::class, 'login']);
+Route::get('/', [AllController::class, 'start']);
 Route::post('/stamp', [AllController::class, 'stamp']);
+
